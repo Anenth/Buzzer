@@ -1,0 +1,94 @@
+/* 
+    Document   : main
+    Created on : Jul 30, 2012, 2:54:56 PM
+    Author     : Anenth
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+root { 
+    display: block;
+}
+body{
+    background: white;
+}
+
+body{
+    background: lightgray;
+}
+h1{
+    margin: 80px auto;
+    font-size: 200px;
+    padding: 20px;
+    width: 80%;
+    background: white;
+    text-align: center;
+    box-shadow:inset 0 0 20px grey, 2px 2px 5px black;
+    display:compact;
+    text-shadow: 2px 2px grey;
+    background: #A90329;
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#a90329), color-stop(44%,#8f0222), color-stop(100%,#6d0019));
+    background: -webkit-radial-gradient(center, ellipse cover, #a90329 0%,#8f0222 44%,#6d0019 100%);
+    
+}
+
+input[type=button]{
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    box-shadow: inset 0px 0px 46px grey ,2px 3px 6px 1px black;
+    display: block;
+    margin: 100px auto;
+    outline: 0px;
+    border: 6px black solid;
+    color: black;
+    font-family: Georgia;
+    font-size: 250px;
+    cursor: pointer;
+    text-align: center;
+    text-shadow: 2px 2px 3px grey;
+    background: transparent;
+    -webkit-transition: all .3s;
+}
+input[type=button]:hover{
+      box-shadow: inset 0px 0px 20px grey ,1px 1px 6px 1px black;
+}
+input[type=button]:active{
+      text-shadow: 1px 1px 3px black;
+      box-shadow: inset 0px 0px 60px black ,1px 1px 6px 1px black;
+}
+#buzzer .outer-edge{
+    margin: 100px auto;
+    width: 400px;
+    height: 400px;
+    background:#800;
+    background:-webkit-gradient(linear, 0 top, 0 bottom, from(#F88), to(#800));
+    top:20px;
+    left:36px;
+    border-radius:50%;
+  }
+
+#buzzer .highlight {
+    width: 400px;
+    height: 400px;
+    background:#D40009;
+    background:-webkit-gradient(linear, 0 top, 0 bottom, from(#FCC), color-stop(50%, #E71616), to(#D40009));
+    top: 22px;
+    left: 38px;
+    border-radius:50%;
+}
+
+#buzzer .fill {
+    width: 400px;
+    height: 400px;
+    background:#E71616;
+    background:-webkit-gradient(linear, 0 top, 0 bottom, from(#FE878A), to(#B80304), color-stop(50%, #E71616), color-stop(80%, maroon), color-stop(85%, maroon) );
+    top:30px;
+    left:38px;
+    border-radius:50%;
+}
